@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(78, 122, 122, 0.295);
+  font-family: 'Poppins', sans-serif;
+
+}
+.main{
+  margin-top: 35px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .Header{
+  margin-bottom: 15px;
+}
+.pagination {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 0 auto;
+  
+}
+.pagination span{
+  padding: 7px 15px;
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 50px;
+
+}
+.pagination .prevbtn{
+  background-color: rgb(41, 36, 41);
+  color: white;
+  cursor: pointer;
+}
+.pagination .nextbtn{
+  background-color: rgb(41, 36, 41);
+  color: white;
+  cursor: pointer;
+
+}
+.input{
+  padding: 7px;
+  width: 400px;
+}
+
+.stories{
+  background-color: antiquewhite;
+  width: 550px;
+  height: 150px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.stories h2{
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.stories p{
+  font-size: 18px;
+}
+.stories .ReadmoreContent{
+  display: flex;
+  justify-content: space-between;
+  font-size: 19px;
+}
+.stories .ReadmoreContent .Readmore a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.stories .ReadmoreContent .remove a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
